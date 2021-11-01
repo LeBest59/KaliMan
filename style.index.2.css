@@ -37,7 +37,7 @@ main{
     justify-content: space-around;
 
 }
-
+/* les boutons sont sur la page index.html */
 .bouton1{
 
     flex-direction: column;
@@ -92,7 +92,7 @@ footer{
     justify-content: center;
     justify-content: space-around;
 }
-
+/* c'est pour le formulaire de la page login.html */
 .container{
 
     display: flex;
@@ -102,9 +102,22 @@ footer{
     background-color: ivory;
     height: 300px;
     width: 400px;
-    margin-left: 40%;
-    margin-top: 15%;
+    margin-top: 10%;
 
 
 }
 
+/* c'est pour le formulaire de la page contact.html */
+.contact{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    background-color: ivory;
+    height: 300px;
+    width: 400px;
+    margin-top: 15%;
+
+
+}
